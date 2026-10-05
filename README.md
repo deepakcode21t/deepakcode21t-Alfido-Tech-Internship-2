@@ -1,57 +1,40 @@
-# Alfido Tech Task 2 - Frontend SPA with React
+# Alfido-Tech-Internship
 
-React single-page application consuming the Task 1 REST API.
+**Name:** Deepak Thapa  
+**Company:** Alfido Tech  
+**Domain:** MERN Stack Developer  
+**Task:** Task 2 – Frontend SPA with React  
 
-## Requirements covered
-- React functional components and hooks
-- React Router navigation
-- Fetch API
-- Loading and error states
-- Create, read, update and delete UI
-- README documentation
+## 1. Introduction
 
-## Run
+This task focused on developing a **React single-page application (SPA)** that communicates with the REST API created in Task 1. The application provides a user-friendly interface for managing product data.
 
-First start Task 1 backend in its project folder:
+## 2. Objectives
 
-```bash
-npm install
-npm run dev
-```
+- Build a frontend using React.js.
+- Use functional components and React Hooks.
+- Implement navigation using React Router.
+- Connect the frontend with the REST API using Fetch API.
+- Implement CRUD operations through the React interface.
+- Handle loading and error states.
 
-It must be available at `http://localhost:5000`.
+## 3. Task Completed
 
-Then open this Task 2 folder in a second VS Code terminal:
+**Task 2: Frontend SPA with React**
 
-```bash
-npm install
-npm run dev
-```
+Created a React-based product management interface supporting:
 
-Open the Vite URL shown in the terminal, normally:
+- **Create** – Add new products
+- **Read** – Display products
+- **Update** – Edit products
+- **Delete** – Remove products
+- React Router for navigation
+- API integration using Fetch
 
-`http://localhost:5173`
+## 4. Tools & Technologies
 
-## API configuration
+**React.js | JavaScript | React Router | Fetch API | Vite | Node.js | VS Code | Git & GitHub**
 
-Optional `.env`:
+## 5. Learning Outcome
 
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-## Pages
-- `/` - list products
-- `/add` - create product
-- `/edit/:id` - update product
-- Delete button - delete product
-
-## Test
-Create a product, edit it, delete it, then refresh. The data is stored through the Task 1 MongoDB API.
-
-## Submission screenshots
-For a brief report:
-1. React project structure in VS Code
-2. Products page showing API data
-3. Add/Edit form
-4. CRUD result in browser
+Gained practical experience in **React development, component-based UI design, routing, API integration, CRUD operations, and frontend-backend communication**.
